@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="stylereg.css">
+</head>
+<body>
+
+    <div class="form-wrapper">
+        <h2>Registration Form</h2>
+        <form action="#">
+            <input type="text" placeholder="Name*" required>
+            <input type="email" placeholder="Email*" required>
+            <input type="tel" placeholder="Phone*" required>
+            
+            <select required>
+                <option value="" disabled selected>Subject*</option>
+                <option value="general">General Inquiry</option>
+                <option value="support">Tech Support</option>
+                <option value="billing">Billing</option>
+            </select>
+            
+            <textarea placeholder="Message*" rows="3" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
